@@ -1,5 +1,5 @@
 // GLOBAL
-import { useUserContext } from "@/context/authContext";
+import { useUserContext } from "@/context/AuthContext";
 import { multiFormatDateString } from "@/lib/utils";
 import { Models } from "appwrite";
 import { Link } from "react-router-dom";

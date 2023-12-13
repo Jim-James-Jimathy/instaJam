@@ -2,7 +2,7 @@
 import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 
 // LOCAL
-import { INITIAL_USER, useUserContext } from "@/context/authContext";
+import { INITIAL_USER, useUserContext } from "@/context/AuthContext";
 import { useSignOutAccount } from "@/lib/react-query/queries";
 import Loader from "./Loader";
 import { sidebarLinks } from "@/constants";

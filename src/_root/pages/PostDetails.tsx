@@ -11,7 +11,7 @@ import {
 import { multiFormatDateString } from "@/lib/utils";
 import PostStats from "@/components/shared/PostStats";
 import GridPostList from "@/components/shared/GridPostList";
-import { useUserContext } from "@/context/authContext";
+import { useUserContext } from "@/context/AuthContext";
 import Loader from "@/components/shared/Loader";
 
 const PostDetails = () => {

@@ -11,7 +11,7 @@ import {
 // LOCAL
 import { Button } from "@/components/ui";
 import { LikedPosts } from "@/_root/pages";
-import { useUserContext } from "@/context/authContext";
+import { useUserContext } from "@/context/AuthContext";
 import { useGetUserById } from "@/lib/react-query/queries";
 import { GridPostList, Loader } from "@/components/shared";
 
@@ -22,7 +22,7 @@ interface StabBlockProps {
 
 const StatBlock = ({ value, label }: StabBlockProps) => (
   <div className="gap-2 flex-center">
-    <p className="small-semibold lg:body-bold text-primary-500">{value}</p>
+    <p className="small-semibold lg:body-bold text-light-4">{value}</p>
     <p className="small-medium lg:base-medium text-light-2">{label}</p>
   </div>
 );
@@ -64,8 +64,8 @@ const Profile = () => {
 
             <div className="z-20 flex flex-wrap items-center justify-center gap-8 mt-10 xl:justify-start">
               <StatBlock value={currentUser.posts.length} label="Posts" />
-              <StatBlock value={20} label="Followers" />
-              <StatBlock value={20} label="Following" />
+              <StatBlock value={3} label="Followers" />
+              <StatBlock value={3} label="Following" />
             </div>
 
             <p className="max-w-screen-sm text-center small-medium md:base-medium xl:text-left mt-7">
