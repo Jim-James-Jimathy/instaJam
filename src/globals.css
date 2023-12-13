@@ -157,7 +157,7 @@
   }
 
   .post_details-img {
-    @apply h-[475px] lg:h-[580px] xl:w-[58%] rounded-t-[30px] xl:rounded-l-[24px] xl:rounded-tr-none object-cover lg:object-contain p-5 bg-dark-1;
+    @apply h-[475px] lg:h-[470px] xl:w-[47%] rounded-t-[30px] xl:rounded-l-[24px] xl:rounded-tr-none object-cover lg:object-contain p-5 bg-dark-1;
   }
 
   .post_details-info {

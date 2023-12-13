@@ -81,11 +81,11 @@ const PostDetails = () => {
                     {post?.creator.name}
                   </p>
                   <div className="gap-2 flex-center text-light-3">
-                    <p className="subtle-semibold lg:small-regular ">
+                    <p className="subtle-semibold lg:text-md ">
                       {multiFormatDateString(post?.$createdAt)}
                     </p>
                     •
-                    <p className="subtle-semibold lg:small-regular">
+                    <p className="subtle-semibold lg:text-md">
                       {post?.location}
                     </p>
                   </div>
