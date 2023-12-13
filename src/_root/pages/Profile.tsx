@@ -11,7 +11,7 @@ import {
 // LOCAL
 import { Button } from "@/components/ui";
 import { LikedPosts } from "@/_root/pages";
-import { useUserContext } from "@/context/AuthContext";
+import { useUserContext } from "@/context/authContext";
 import { useGetUserById } from "@/lib/react-query/queries";
 import { GridPostList, Loader } from "@/components/shared";
 

@@ -3,7 +3,7 @@ import { Models } from "appwrite";
 import { Link } from "react-router-dom";
 
 // LOCAL
-import { useUserContext } from "@/context/AuthContext";
+import { useUserContext } from "@/context/authContext";
 import PostStats from "./PostStats";
 
 type GridPostListProps = {

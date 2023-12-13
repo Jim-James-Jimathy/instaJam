@@ -5,7 +5,7 @@ import { useEffect } from "react";
 // LOCAL
 import { Button } from "../ui/button";
 import { useSignOutAccount } from "@/lib/react-query/queries";
-import { useUserContext } from "@/context/AuthContext";
+import { useUserContext } from "@/context/authContext";
 
 const Topbar = () => {
   const navigate = useNavigate();

@@ -21,7 +21,7 @@ import {
   useSignInAccount,
 } from "@/lib/react-query/queries";
 import { SignupValidation } from "@/lib/validation";
-import { useUserContext } from "@/context/AuthContext";
+import { useUserContext } from "@/context/authContext";
 
 const SignupForm = () => {
   const { toast } = useToast();
